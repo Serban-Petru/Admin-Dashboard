@@ -221,6 +221,7 @@ gap:15px;
     grid-template-columns: 2fr 1fr;
     background-color: rgb(233, 233, 233);
     padding: 30px;
+    gap:20px;
 }
 
 .main-left{
@@ -271,4 +272,54 @@ gap:15px;
     grid-template-columns: 1fr 1fr 1fr;
     justify-self: end;
     gap:15px;
+}
+
+.main-right{
+ display: grid;
+ grid-template-rows: 1fr 1fr;
+
+}
+
+.news{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:20px;
+}
+
+.news-title{
+    font-weight: bold;
+}
+
+.news-article{
+    border-bottom: 1px solid lightslategrey;
+
+}
+
+.profile{
+    display: flex;
+    gap:10px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accounts{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+    justify-content: start;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.down{
+    align-items: end;
 }
