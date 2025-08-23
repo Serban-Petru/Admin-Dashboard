@@ -3,12 +3,15 @@
     padding: 0;
     font-family: sans-serif;
     height: 100%;
+    
 }
+
 
 .content{
     display: grid;
     grid-template-columns: auto 3fr;
     grid-template-rows: 1fr 4fr;
+    background-color: rgb(233, 233, 233);
 }
 
 .sidebar{
@@ -20,10 +23,11 @@
 .header{
     background-color: white;
     grid-column: 2/3;
+    box-shadow: 0 10px 12px 0px #ccc7c7;
 }
 
 .main-content{
-    background-color: pink;
+
     grid-row: 2/3;
     
 }
@@ -109,6 +113,7 @@ ul,li{
     grid-template-rows: 1fr 1fr;
     margin-left: 40px;
     margin-right: 40px;
+
 }
 
 .top-header{
@@ -133,7 +138,7 @@ ul,li{
 .top-header-left input{
     height: 30px;
     width: 100%;
-    background-color: rgb(220, 222, 224);
+    background-color: rgb(233, 233, 233);
     border-style: none;
     border-radius: 20px;
 }
@@ -160,4 +165,53 @@ gap:15px;
     align-items: center;
 }
 
+.bottom-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     
+    
+}
 
+.bottom-header .cato{
+    width: 70px;
+}
+
+.firtLine{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-header-left{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.secondLine{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.greating{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-header-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:15px;
+}
+
+.bottom-header-right button{
+    border-style: none;
+    background-color: rgb(0, 162, 255);
+    width: 100px;
+    height: 40px;
+    border-radius: 60px;
+    color:white;
+    font-weight: bold;
+}
